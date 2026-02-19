@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-iotsecuretunneling`](https://www.npmjs.com/package/@aws-sdk/client-iotsecuretunneling/v/3.882.0).
+[`@aws-sdk/client-iotsecuretunneling`](https://www.npmjs.com/package/@aws-sdk/client-iotsecuretunneling/v/3.883.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsecuretunneling@3.882.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsecuretunneling@3.883.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-foj8Z14gFFEu7cQP4Nms82SxcFvH8wUYCOOF/E+5H6RZ84kpWLNOPY5/PH3NyTnV
+sha384-8N9wbt5bsl1jPTi8IZP/lkWzfMejD/6L0/GAIXak/LeY7EjlZnkMtJgR0naC2d1A
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-iotsecuretunneling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsecuretunneling@3.882.0/index.min.mjs"
+            "@aws-sdk/client-iotsecuretunneling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsecuretunneling@3.883.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsecuretunneling@3.882.0/index.min.mjs": "sha384-foj8Z14gFFEu7cQP4Nms82SxcFvH8wUYCOOF/E+5H6RZ84kpWLNOPY5/PH3NyTnV"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsecuretunneling@3.883.0/index.min.mjs": "sha384-8N9wbt5bsl1jPTi8IZP/lkWzfMejD/6L0/GAIXak/LeY7EjlZnkMtJgR0naC2d1A"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-iotsecuretunneling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsecuretunneling@3.882.0/index.min.mjs"
+                        "@aws-sdk/client-iotsecuretunneling": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsecuretunneling@3.883.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsecuretunneling@3.882.0/index.min.mjs": "sha384-foj8Z14gFFEu7cQP4Nms82SxcFvH8wUYCOOF/E+5H6RZ84kpWLNOPY5/PH3NyTnV"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-iotsecuretunneling@3.883.0/index.min.mjs": "sha384-8N9wbt5bsl1jPTi8IZP/lkWzfMejD/6L0/GAIXak/LeY7EjlZnkMtJgR0naC2d1A"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.882.0`)
+* Always pin to a specific version (`@3.883.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-iotsecuretunneling/blob/refs/tags/3.882.0/LICENSE
+https://github.com/cloud-sdk-builds/client-iotsecuretunneling/blob/refs/tags/3.883.0/LICENSE
 ```
 
 ---
